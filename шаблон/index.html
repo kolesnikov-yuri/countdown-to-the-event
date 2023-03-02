@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <link rel="stylesheet" href="./index.css">
+    <title>counting down</title>
+  </head>
+  <body>
+    <!-- <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div> -->
+   
+      <div class="section">
+        <div class="counting_down">
+          <div class="menu">
+            <div class="menu_content">
+              <div class="event_name">
+                <p>название события:</p>
+                <input class="menu_content_input" type="text" value="событие">
+              </div>
+              <div class="event_name">
+                <p>в каком месяце:</p>
+                <input class="menu_content_input" type="select" value="апрель">
+              </div>
+              <div class="event_name">
+                <p>точная дата:</p>
+                <input class="menu_content_input" type="date">
+              </div>
+              <button class="button_reminder">начать</button>
+            </div>
+          </div>
+          <div class="heading"><h1>событие</h1></div>
+          <div class="time_holding">
+            <div class="expected">
+              <p>ожидается в&nbsp <span>апреле</span></p>
+            </div>
+            <div class="remained_time">
+              
+                <div class="title">Осталось:</div>
+                <div class="timer">
+                    <div class="timer_block timer_block_days">
+                        <span id="days">12</span>
+                        дней
+                    </div>
+                    <div class="timer_block timer_block_hors">
+                        <span id="hours">20</span>
+                        часов
+                    </div>
+                    <div class="timer_block timer_block_minutes">
+                        <span id="minutes">56</span>
+                        минут
+                    </div>
+                    <div class="timer_block timer_block_second">
+                        <span id="seconds">20</span>
+                        секунд
+                    </div>
+                </div>
+            
+            </div>
+          </div>
+          <div class="reminder">
+            <h2>поставить напоминание</h2>
+            <div class="reminder_content">
+              <div class="reminder_content_question">
+                <p class="reminder_naming">напомнить о <br> <span>событие</span> <br> через :</p>
+              </div>
+              <div class="count_time">
+                <div class="count_time_days">
+                  <label for="#">дней</label>
+                  <input type="number" name="days" id="#" value="0" min="0" max="31">
+                </div>
+                <div class="count_time_hours">
+                  <label for="#">часов</label>
+                  <input type="number" name="hours" id="#" value="0" min="0" max="24">
+                </div>
+                <div class="count_time_min">
+                  <label for="#">минут</label>
+                  <input type="number" name="min" id="#" value="0" min="0" max="59">
+                </div>
+              </div>
+              <button class="button_reminder">напомнить</button>
+            </div>
+          </div>
+        </div>
+        <div class="reminder_activ">
+          <div class="reminder_activ_heading"><h3>внимание</h3></div>
+          <p>
+            <span>событие</span>
+          </p>
+          <p>
+            начнется через:
+          </p>
+          <div class="reminder_activ_count_time count_time">
+            <div class="reminder_activ_count_time_days count_time_days">
+              <label for="#">дней</label>
+              <input type="number" name="days" id="#" value="0" min="0" max="31">
+            </div>
+            <div class="reminder_activ_count_time_hours time_hours">
+              <label for="#">часов</label>
+              <input type="number" name="hours" id="#" value="0" min="0" max="24">
+            </div>
+            <div class="reminder_activ_count_time_min time_min">
+              <label for="#">минут</label>
+              <input type="number" name="min" id="#" value="0" min="0" max="59">
+            </div>
+            <div class="reminder_activ_count_time_sec time_sec">
+              <label for="#">секунд</label>
+              <input type="number" name="sec" id="#" value="0" min="0" max="59">
+            </div>
+          </div>
+          <a href="#">
+            <button class="button_reminder button_reminder_activ">перейти к&nbsp; <span>событие</span></button>
+          </a>
+        </div>       
+      </div>
+
+  </body>
+</html>

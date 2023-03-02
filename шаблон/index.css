@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.counting_down {
+    max-width: 768px;
+    flex-basis: 100%;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    color: #3060e5;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.menu {
+    float: right;
+    width: 24px;
+    height: 24px;
+    background-color: #11e045;
+    position: relative;
+}
+
+.menu_content {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #9ae8f4;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    display: none;
+}
+
+.event_name {
+    font-size: 24px;
+    color: #ed5311;
+}
+
+.menu_content_input {
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+}
+
+.time_holding{
+    max-width: 700px;
+    height: 100px;
+    margin: 0 auto 50px;
+    /* box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.3); */
+}
+
+.expected {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.expected p {
+    font-size: 52px;
+    color:#11e045;
+}
+
+.expected p span {
+    color:#d611e0;
+    text-transform: uppercase;
+}
+
+.remained_time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    color:#42dd13;
+    font-weight: bold;
+}
+
+.timer {
+    display: flex;
+    padding-left: 95px;
+    justify-content: space-between;
+}
+.timer_block {
+    width: 102px;
+    height: 100px;
+    margin-left: 32px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+    color: #0e383b;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.timer_block span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.timer_block_minutes,
+.timer_block_second {
+    display: none;
+}
+
+.reminder {
+    width: 300px;
+    color: #0e383b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.reminder:hover {
+    color: #42dd13;
+}
+
+.reminder:hover > .reminder_content {
+   display: block;
+}
+
+.reminder_content {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #9ae8f4;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 300px;
+    display: none;
+}
+
+.reminder_content_question {
+    margin-bottom: 36px;
+}
+
+.reminder_naming {
+    color: #fb0404;
+    font-size: 24px;
+
+}
+
+.reminder_naming span {
+    color: #04a0fb;
+    font-size: 48px;
+
+}
+
+.count_time {
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.count_time label {
+    color:black;
+    font-size: 24px;
+}
+
+
+
+.button_reminder {
+    width: 250px;
+    height: 50px;
+    border-radius: 32px;
+    background-color: rgb(243, 169, 10);
+    border-color: rgb(230, 72, 72);
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+}
+.button_reminder:hover {
+    background-color: rgb(243, 29, 10); 
+}
+
+.reminder_activ {
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    background-color: #9ae8f4;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 300px;
+    display: none; 
+
+}
+
+.reminder_activ_heading {
+    display: flex;
+    justify-content: center;
+}
+
+.reminder_activ h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #fb0404;
+    opacity: 1;
+    margin-bottom: 12px;
+}
+
+.reminder_activ p {
+    display: flex;
+    justify-content: center;
+    color: #ef8f09;
+    font-size: 24px;
+}
+
+.reminder_activ p span {
+    font-size: 48px;
+    color:#0d07c2;
+    margin-bottom: 12px;
+}
+
+.button_reminder_activ {
+    width: 200px;
+    height: 32px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: bold;
+}
+.reminder_activ a {
+    text-decoration: none;
+}
+
+
+
