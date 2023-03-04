@@ -1,0 +1,1 @@
+export { HeadingSm } from './heading-sm';

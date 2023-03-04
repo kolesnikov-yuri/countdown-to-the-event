@@ -51,7 +51,7 @@
     opacity: 0.8;
     position: absolute;
     right: 0;
-    display: none;
+    /* display: none; */
 }
 
 .event_name {
@@ -152,7 +152,7 @@
     opacity: 0.8;
     position: absolute;
     bottom: 300px;
-    display: none;
+    /* display: none; */
 }
 
 .reminder_content_question {
@@ -205,7 +205,7 @@
     opacity: 0.8;
     position: absolute;
     bottom: 300px;
-    display: none; 
+    /* display: none;  */
 
 }
 

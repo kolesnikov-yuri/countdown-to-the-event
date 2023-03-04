@@ -1,0 +1,35 @@
+.block-info {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    background-color: #9ae8f4;
+    opacity: 0.8;
+    /* position: absolute; */
+    /* bottom: 300px; */
+    /* display: none; */
+}
+/* 
+.reminder_activ {
+    width: 300px;
+    height: 300px;
+    padding: 8px;
+    background-color: #9ae8f4;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 300px; 
+    display: none; 
+}
+
+.menu_content {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #9ae8f4;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    display: none;
+} */
