@@ -4,8 +4,11 @@ import { EventInput } from './ui/event-input';
 import { Heading } from './ui/heading';
 import { HeadingSm } from './ui/heading-sm';
 import { CountTimeInput } from './ui/count-time-input';
+import { Expected } from './ui/expected';
 
 import './App.css';
+import { RemainedTime } from './ui/remained-time/remained-time';
+
 
 function App() {
   return (
@@ -39,6 +42,14 @@ function App() {
       className="co_ti_in">
         <span>деней</span>
       </CountTimeInput>
+      <Expected
+      className="exp">
+        <span>апреле</span>
+      </Expected>
+      <RemainedTime
+      className="rem_ti">
+      <p>дней</p> 
+      </RemainedTime>
     </div>
     
   );

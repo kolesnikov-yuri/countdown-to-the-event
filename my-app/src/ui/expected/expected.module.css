@@ -1,0 +1,15 @@
+.expected {
+    display: flex;
+    justify-content: center;
+    /* display: none; */
+}
+
+.expected p {
+    font-size: 52px;
+    color:#11e045;
+}
+
+.expected p span {
+    color:#d611e0;
+    text-transform: uppercase;
+}

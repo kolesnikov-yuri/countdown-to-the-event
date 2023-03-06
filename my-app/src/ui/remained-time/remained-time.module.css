@@ -1,0 +1,39 @@
+.remained_time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    color:#42dd13;
+    font-weight: bold;
+}
+
+.timer {
+    display: flex;
+    padding-left: 95px;
+    justify-content: space-between;
+}
+.timer_block {
+    width: 102px;
+    height: 100px;
+    margin-left: 32px;
+    background: #fff;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 25%);
+    color: #0e383b;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.timer_block span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.time_elem {
+    font-size: 24px;
+}
